@@ -1,7 +1,7 @@
 ---
 author: Daniel Puig
 authorURL: https://twitter.com/dapuicon
-authorImageURL: /img/me.jpg
+authorImageURL: /site/img/me.jpg
 title: Testing Docusaurus
 ---
 
