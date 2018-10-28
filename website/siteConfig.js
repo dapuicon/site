@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'All-terrain Coding', // Title for your website.
   tagline: 'A website for sharing knowlege',
-  url: 'https://github.com/dapuicon', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://dapuicon.github.io', // Your website URL
+  baseUrl: '/site', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
