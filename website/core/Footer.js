@@ -32,7 +32,7 @@ class Footer extends React.Component {
               />
             )}
           </a>
-          <div>
+          {/* <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Getting Started (or other categories)
@@ -62,9 +62,9 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitter
             </a>
-          </div>
-          <div>
-            <h5>More</h5>
+          </div> */}
+       {/*    <div>
+            <h5>More</h5> */}
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
             <a
@@ -77,10 +77,10 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
-          </div>
+          {/* </div> */}
         </section>
 
-        <a
+        {/* <a
           href="https://code.facebook.com/projects/"
           target="_blank"
           rel="noreferrer noopener"
@@ -91,7 +91,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

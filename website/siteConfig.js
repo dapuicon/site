@@ -21,41 +21,42 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'All-terrain Coding', // Title for your website.
+  tagline: 'A website for sharing knowlege',
+  url: 'https://github.com/dapuicon', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'site',
+  organizationName: 'dapuicon',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {doc: 'doc1', label: 'Docs'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
+    { blog: true, label: 'Blog' },
+    { href: 'https://github.com/dapuicon', label: 'GitHub' },
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/todo.svg',
+  footerIcon: 'img/todo.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
     primaryColor: '#2C395C',
-    secondaryColor: '#5c4f2c',
+    secondaryColor: '#a2a0b3',
   },
 
   /* Custom fonts for website */
@@ -73,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Daniel Puig`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -90,7 +91,14 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
+  twitter: true,
+  twitterUsername: 'dapuicon',
   twitterImage: 'img/docusaurus.png',
+  cleanUrl: true,
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100,
+  },
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
